@@ -3,21 +3,22 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"math"
 	"os"
 	"strconv"
 )
 
+const Pi = 22.0 / 7
+
 func luas(
 	r float64,
 ) float64 {
-	return math.Pi * r * r
+	return Pi * r * r
 }
 
 func keliling(
 	r float64,
 ) float64 {
-	return math.Pi * r * 2
+	return Pi * r * 2
 }
 
 func main() {
