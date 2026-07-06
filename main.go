@@ -32,7 +32,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "%s", err.Error())
 	}
 
-	fmt.Printf("lingkaran dengan r = 7 \n")
-	fmt.Printf("  luas    : %f\n", luas(r))
-	fmt.Printf("  keliling: %f\n", keliling(r))
+	fmt.Printf("lingkaran dengan r = %v\n", r)
+	fmt.Printf("  luas    : %v\n", luas(r))
+	fmt.Printf("  keliling: %v\n", keliling(r))
 }
